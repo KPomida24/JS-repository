@@ -1,0 +1,284 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+.story {
+    width: 100%
+}
+
+.Story h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px
+}
+.Story p {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px
+}
+.body { 
+    background-color:#f7f7ac;
+    margin: 5;
+    padding: 5;
+}
+section#contact {
+border-color: #111;
+border-style: solid;
+border-width: 5px;
+}
+li.even {
+    background: #d7d7a9;
+}
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100;
+    background-color: lightbrown;
+    color: black;
+    text-align: center;
+}
+.LOGO {
+   float: left;
+   margin-right: 20px;
+}
+a { 
+    color: #007bff;
+    text-decoration: underline;
+}
+section .about_me {
+    width: 100%;
+}
+section .about_me h1 {
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px
+}
+section .about_me p {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px
+}
+
+nav {
+    display: flex;
+    justify-content: space-round;
+    background-color: burlywood;
+padding: 10px;
+}
+button {
+    padding: 8px 16px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background: #fff066;
+    color: white;
+    border-radius: 20px;
+    border-color: black;
+}
+#increment-btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+#increment-btn:hover {
+  background-color: pink;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 4px solid burlywood;
+    border-radius: 5px;
+    width: 200px;
+    border-color: bisque;
+}
+li {
+    padding: 8px;
+}
+.odd {
+    background-color: #fff066;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 4px solid burlywood;
+    border-radius: 5px;
+  }
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  h4 {
+    color: #777;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px 0;
+  }
+  
+  .odd {
+    background-color: #f0f0;
+  }
+  
+  .even {
+    background-color: #e6e6e6;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .CJersey, .MJersey {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .CJersey img, .MJersey img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .MJersey {
+    float: left;
+    margin-right: 20px;
+}
+
+.CJersey {
+    float: right;
+    margin-left: 20px; 
+}
+
+x
+  h2 + p {
+    color: #999;
+    font-style: Arial;
+  }
+  .buy {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: green;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy:hover {
+    background-color: #45a049; 
+  }
+ 
+  .flex-item {
+    flex: 1;
+  }
+
+  #btn-alert {
+    background-color: orange;
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none;
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
+
+  #btn-alert:hover {
+    background-color: red;
+    border-radius: 4;
+  }
+
+.odd {
+    color: orange;
+}
+
+.even {
+    color: blue;
+}
+
+#numbers {
+  list-style: none;
+  padding: 0;
+}
+
+#numbers li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+#numbers li:nth-child(even) {
+  color:  #fff066;
+}
+
+#numbers li:nth-child(odd) {
+  color: burlywood;
+}
+/* cool stuff */
